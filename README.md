@@ -1,4 +1,4 @@
-#home work variant 1
+#home work - variant 1
 
 angularJs patterns
 
@@ -21,15 +21,18 @@ Pub/Sub is presented by $scope.$on, $scope.$emit, $scope.$broadcast methods
 
 
 4. Singleton
+
 All angularJs services are singletons (factory, provider, 'service')
 for example, [service](./src/service.js) will be cached in Instance Cache after first instantiation by $injector
 
 
 5. Factory
+
 $provider can be used as a factory in angularJs
 for example, [factory](./src/factory.js)
 
 6. Decorator
+
 Decorators are presented by decorator method of $provide
 for example, [decorator](https://github.com/angular/angular.js/blob/291d7c467fba51a9cb89cbeee62202d51fe64b09/src/ngTouch/directive/ngClick.js#L44)
 
