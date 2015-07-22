@@ -2,7 +2,7 @@
 
 angularJs patterns
 
-1. [MVC (or MVVM with 2-way bindings)](mvvm.md)
+1. MVC (or MVVM with 2-way bindings)
 
 	Controller in angularJs is a instance for any controller function. [controller](./src/controller.js)
 
@@ -10,7 +10,7 @@ angularJs patterns
 
 	Model can be whatever (JSON objects, scope properties)
 
-2. [2-way bindings](2way.md)
+2. 2-way bindings
 
 	two way data binding is presented by {{ expression }}
 	directives: ng-model, ng-bind, ng-repeat, ng-if...
