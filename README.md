@@ -17,16 +17,22 @@ directives: ng-model, ng-bind, ng-repeat, ng-if...
 
 3. Pub/Sub
 
+Pub/Sub is presented by $scope.$on, $scope.$emit, $scope.$broadcast methods
 
 
 4. Singleton
+All angularJs services are singletons (factory, provider, 'service')
+for example, [service](./src/service.js) will be cached in Instance Cache after first instantiation by $injector
+
 
 5. Factory
+$provider can be used as a factory in angularJs
+for example, [factory](./src/factory.js)
 
-6. Module
+6. Decorator
 
-7. Decorator
+7. Callbacks
 
-8. Callbacks
+Callback pattern is used very widely in angularJs, for example in [animate runner](https://github.com/angular/angular.js/blob/291d7c467fba51a9cb89cbeee62202d51fe64b09/src/ngAnimate/animateRunner.js#L20) 
 
 
