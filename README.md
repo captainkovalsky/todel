@@ -4,9 +4,9 @@ angularJs patterns
 
 1. MVC (or MVVM with 2-way bindings)
 
-	Controller in angularJs is a instance for any controller function. [controller](./src/controller.js)
+	Controller in angularJs is a instance for any controller function. [controller](src/controller.js)
 
-	View is a html template which will be rendered. [view](./src/view.html)
+	View is a html template which will be rendered. [view](src/view.html)
 
 	Model can be whatever (JSON objects, scope properties)
 
@@ -23,13 +23,13 @@ angularJs patterns
 4. Singleton
 
 	All angularJs services are singletons (factory, provider, 'service')
-	for example, [service](./src/service.js) will be cached in Instance Cache after first instantiation by $injector
+	for example, [service](src/service.js) will be cached in Instance Cache after first instantiation by $injector
 
 
 5. Factory
 
 	$provider can be used as a factory in angularJs
-	for example, [factory](./src/factory.js)
+	for example, [factory](src/factory.js)
 
 6. Decorator
 
