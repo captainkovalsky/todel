@@ -6,7 +6,7 @@ angularJs patterns
 
 Controller in angularJs is a instance for any controller function. [controller](./src/controller.js)
 
-View is a html template which will be rendered.[html](./src/view.html)
+View is a html template which will be rendered. [view](./src/view.html)
 
 Model can be whatever (JSON objects, scope properties)
 
@@ -30,6 +30,9 @@ $provider can be used as a factory in angularJs
 for example, [factory](./src/factory.js)
 
 6. Decorator
+Decorators are presented by decorator method of $provide
+for example, [decorator](https://github.com/angular/angular.js/blob/291d7c467fba51a9cb89cbeee62202d51fe64b09/src/ngTouch/directive/ngClick.js#L44)
+
 
 7. Callbacks
 
